@@ -7,10 +7,22 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+  <!-- MY CSS -->
+  <style type="text/css">
+    .hero-section {
+      background-image: url(hotel2.1.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+  </style>
+    <!-- MY CSS -->
   <title>Beyond Menu</title>
+</head>  
+<body>
     <!-- NAVBAR START -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3C4735;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #DAD9D7">
       <a class="navbar-brand" href="#">Beyond Menu</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
         <span class="navbar-toggler-icon"></span>
@@ -32,38 +44,23 @@
             <a class="nav-link" href="#">Help</a>
           </li>
         </ul>
-         <li class="form-inline">
-            <a class="nav-link" href="#">Log In</a>
-          </li>
-          <li class="form-inline">
-            <a class="nav-link" href="#">Register</a>
-          </li>
+        <li class="form-inline">
+          <a class="nav-link" href="#">Log In</a>
+        </li>
+        <li class="form-inline">
+          <a class="nav-link" href="#">Register</a>
+        </li>
       </div>
-    </nav> 
-    <style type="text/css">
-      .navbar-custom{
-        background-color: #3C4735;
-      }
-    </style>
+    </nav>  
     <!-- END NAVBAR -->
     <!-- Hero img -->
     <div class="hero-section">
 
     </div>
-    <style type="text/css">
-      .hero-section {
-      background-image: url(hotel3.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 95vh;
-    }
-    </style>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
-</html>
+  </html>
